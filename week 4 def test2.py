@@ -9,5 +9,6 @@ def check_num(prompt):
     return int(user_input)
 
 
+
 bmi = check_num("weight in kg")/(check_num("height in cm")/100)**2
 print(f"your BMI is {bmi}")
