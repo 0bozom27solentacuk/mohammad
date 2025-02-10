@@ -15,4 +15,5 @@ while not valid_input :
         print("you must enter a number !!!")
 print(weight)
 bmi = int(weight)/int(height)/100**2
+
 print(f"your bmi is {bmi}")
