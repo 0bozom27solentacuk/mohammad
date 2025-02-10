@@ -4,6 +4,7 @@ def reverse_string(fstring):
         bstring = i + bstring
     return bstring
 
+
 name = input("enter your name : ")
 
 print(reverse_string(name))
